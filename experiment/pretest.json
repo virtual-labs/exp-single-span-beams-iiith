@@ -1,18 +1,11 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":"Bending moment profile for a S.S. beam under U.D.L is parabolic.",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
-          },
-"correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
-"answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
-          },
-"correctAnswer":"c"} 
+            "a":"True",
+    "b":"False"
+},
+"correctAnswer":"b"},
+
 ]
+
+[Read more](http://bsa-iiith.vlabs.ac.in/exp2/Exp-2%20Single%20span%20beams.pdf)
