@@ -1,4 +1,4 @@
-***Q1**. What is a fixed beam?
+**Q1**. What is a fixed beam?
 
 **Q2**. What is point of inflection?
 
