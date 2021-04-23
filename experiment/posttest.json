@@ -1,11 +1,8 @@
-[
-{"question":"Tension occurs at bottom of the cantilever beam when point load is applied at the center.",
-"answers":{
-            "a":"True",
-            "b":"False"
-          },
-"correctAnswer":"b"}
-]
-
-
-[Read more](http://bsa-iiith.vlabs.ac.in/exp2/Exp-2%20Single%20span%20beams.pdf)
+[{
+	"question": "Tension occurs at bottom of the cantilever beam when point load is applied at the center.",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "b"
+}]
