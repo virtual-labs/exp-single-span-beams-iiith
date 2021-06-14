@@ -4,4 +4,3 @@ In General when the beam is subject to the loading it deflects, some of the mome
 
 - Bending Moment: Bending moment is the algebraic sum of moments to the left or right of the section. In each case, by considering, either for forces or moments the resultants caused by applied forces to one side of the section is balanced by bending moment and shear force acting on the section.
 
-[Read more](http://bsa-iiith.vlabs.ac.in/exp2/Exp-2%20Single%20span%20beams.pdf)

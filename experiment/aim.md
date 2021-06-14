@@ -6,6 +6,3 @@ Beams are characterized by their profile (the shape of their cross-section), the
 #### Objective
 
 To Study the beam under different loads acting on it.
-
-
-[Read more](http://bsa-iiith.vlabs.ac.in/exp2/Exp-2%20Single%20span%20beams.pdf)

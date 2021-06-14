@@ -8,5 +8,3 @@
 
 **Q5**. The ratio of change in length to the original length is ___________.
 
-
-[Read more](http://bsa-iiith.vlabs.ac.in/exp2/Exp-2%20Single%20span%20beams.pdf)
