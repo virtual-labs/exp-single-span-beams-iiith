@@ -35,4 +35,4 @@ e. Dial Gauges
 |Uniform Varying|   |   |   |   |   |   |   |   |   |
 
 
-[Read more](docs/Exp-2 Single span beams.pdf)
+<a href="docs/Exp-2 Single span beams.pdf">[Read more]</a>
