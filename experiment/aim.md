@@ -2,7 +2,3 @@ A beam is a structural element that is capable of withstanding load primarily by
 
 Beams are characterized by their profile (the shape of their cross-section), their length, and their material. In contemporary construction, beams are typically made of steel, reinforced concrete, or wood. One of the most common types of steel beam is the I-beam or wide-flange beam (also known as a "universal beam" or, for stouter sections, a "universal column"). This is commonly used in steel-frame buildings and bridges. Other common beam profiles are the C-channel, the hollow structural section beam, the pipe, and the angle.
 
-
-#### Objective
-
-To Study the beam under different loads acting on it.
