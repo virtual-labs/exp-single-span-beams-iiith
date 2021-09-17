@@ -34,3 +34,5 @@ e. Dial Gauges
 |   |3.Concentrated Load|   |   |   |   |   |   |   |   |
 |Uniform Varying|   |   |   |   |   |   |   |   |   |
 
+
+[Read more](docs/Exp-2 Single span beams.pdf)
