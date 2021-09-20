@@ -1,0 +1,1 @@
+- To Study the beam under different loads acting on it.
