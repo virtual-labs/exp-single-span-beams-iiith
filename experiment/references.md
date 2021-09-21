@@ -1,6 +1,6 @@
-- Theory of structures Volume: 1 by S.P.Gupta and G.S.Pandit
+1. Theory of structures Volume: 1 by S.P.Gupta and G.S.Pandit
 
-- Reference from &#8730;X MATHalino.Com
+2. Reference from &#8730;X MATHalino.Com
 
-- Mechanics of Materials by B.C.Punmia
+3. Mechanics of Materials by B.C.Punmia
 
