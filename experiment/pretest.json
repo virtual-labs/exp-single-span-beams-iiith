@@ -1,5 +1,5 @@
 [{
-	"question": "Bending moment profile for a S.S. beam under U.D.L is parabolic.",
+	"question": "1. Bending moment profile for a S.S. beam under U.D.L is parabolic.",
 	"answers": {
 		"a": "True",
 		"b": "False"
