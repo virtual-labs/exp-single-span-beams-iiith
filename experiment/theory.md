@@ -22,7 +22,7 @@ R<sub>av</sub> = Vertical reaction means that is the force stopping the beam not
 
 R<sub>AB</sub> = horizontal reaction 
 M<sub>A</sub> = reactive moment 
-R<sub>AV</sub> = P¡ü  ; R<sub>AH</sub> = O
+R<sub>AV</sub> = P&#8593;  ; R<sub>AH</sub> = O
 M<sub>A</sub> = PXL = PL 
 
 1. Shear Force
