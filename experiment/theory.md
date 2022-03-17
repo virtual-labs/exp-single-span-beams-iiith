@@ -56,7 +56,6 @@ SF = wx                              0<=x<=L
 
 <img src="images/canti-udl/Diagram-6.png"/>
 
-
 BM = -wL2/2 + wx2/2           0<=x<=L
 
 
@@ -77,9 +76,9 @@ SF =wl/2 - wx (0<= x<=L)
 
 M =  (wl/2) x - wx2/2 - wl2/ 12
 
-At x=0 ,     M= -wl2/12
-At x=L,      M= -wL2/12
-At x=L/2,   M= +wL2/24
+At x=0 ,     M= -wl2/12  
+At x=L,      M= -wL2/12  
+At x=L/2,   M= +wL2/24  
 
 
 **Fixed Beam (Point Load)**
@@ -88,8 +87,8 @@ At x=L/2,   M= +wL2/24
 
 1. Shear force
 
-Sf = w/2                    0<= x<= L/2  
-    = -w/2                   L/2<=x<= L  
+Sf = w/2                    0<= x<= L/2      
+   = -w/2                   L/2<=x<= L      
 
 <img src="images/fixed-pointload/Diagram-9.png"/>
  
@@ -100,8 +99,8 @@ Sf = w/2                              0<= x<= L/2
 
 <img src="images/fixed-pointload/Diagram-10.png"/>	
 
-BM = WL/8                        at x=0  
-   = WL/8                        at x= L/2  
-   = WL/8                        at x=L  
+BM = WL/8                        at x=0    
+   = WL/8                        at x= L/2    
+   = WL/8                        at x=L    
 
 
