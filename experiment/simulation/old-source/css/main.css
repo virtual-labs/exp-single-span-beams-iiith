@@ -1,22 +1,11 @@
-/*.page {
-	
-	overflow-y: hidden;
-overflow-x: hidden;
-}*/
-.vr{
-  width:3px;
-  display:table-cell;
-  background-color:black;
-  height:100%;
-  
+.page {
+	overflow-x: scroll;
 }
+
 .v-canvas-container {
 	width: 100%;
 	height: 100%;
-	/*background-color: #b3ecff;*/
-	border: 0.2rem solid #97d23d !important;
-	border-radius: 25px;
-
+	background-color: #f2f2f2;
 }
 
 .v-datalist-container {
@@ -40,33 +29,15 @@ svg {
 	max-width: 100%;
 }
 
-
- #arrow { 
-	/* margin-left: 530px;
-	margin-top: 0px; 
-  width: 100px;
-  height: 100px;*/
-  position: relative;
-  animation: mymove 10s forwards;
-} 
-
-/*#ball {
+#arrow {
 	margin-left: 315px;
 	margin-top: 1px;
+  width: 100px;
+  height: 100px;
   position: relative;
-  animation: mymove 1s forwards;
+  animation: mymove 2s forwards;
 }
-.ball {
-	position: relative;
-	bottom: 0%;
-	left: -1em;
-	width: 2em;
-	height: 2em;
-	/*border-radius: 50%;*/
-	/*background-color: orange;*/
-/*}
-*/
-
+/**/
 g {
 	outline-color: solid 10px black;
 }
@@ -104,7 +75,7 @@ g {
 		order: 2;
 	}
 }
-/*  #triangle1 {
+  #triangle1 {
       width: 1px;
       height: 1px;
       display: none;
@@ -114,4 +85,4 @@ g {
       border-right: 170px solid transparent;
       border-bottom: 58px solid #000000;
       margin: 10px 0px 00px;
-}*/
+  }
