@@ -111,8 +111,8 @@ function playSimulation() {
                 previousClickedEle.push("set1");
                 document.getElementById("set1").style.display = "block";
                 //document.getElementById("procedure-message").innerHTML = "Select Cantilever from the dropdown menu";
-                document.getElementById("mes1").innerHTML = "Maximum shear force is constant throughout the beam";
-                document.getElementById("mes2").innerHTML = "text message";
+                document.getElementById("mes1").innerHTML = "Shear force is constant throughout the beam";
+                document.getElementById("mes2").innerHTML = "Maiximum bending movement occurs at the initial fixed end";
                 cantiPlBeam("#canti-pl-main-beam", "#canti-beam-pl");
                 previousClickedBeam.push("beam1");
                 document.getElementById("beam1").style.display = "none";
@@ -129,7 +129,7 @@ function playSimulation() {
             if (value === "UDL" && selectedDropdownval === "Cantilever") {
                 previousClickedEle.push("set2");
                 document.getElementById("set2").style.display = "block";
-                document.getElementById("mes3").innerHTML = "Maximum bending movement occurs at the fixed end";
+                document.getElementById("mes3").innerHTML = "Maximum shear force occurs at the fixed end";
                 document.getElementById("mes4").innerHTML = "text message bm";
                 // console.log("test");
                 cantiUdlBeam("#canti-udl-main-beam", "#canti-beam-udl");
@@ -143,8 +143,8 @@ function playSimulation() {
             if (value === "Point Load" && selectedDropdownval === "Fixed Beam") {
                 previousClickedEle.push("set3");
                 document.getElementById("set3").style.display = "block";
-                document.getElementById("mes5").innerHTML = "text message of sf";
-                document.getElementById("mes6").innerHTML = "text message of bm";
+                document.getElementById("mes5").innerHTML = "Shear force is constant throughout the beam";
+                document.getElementById("mes6").innerHTML = "Maximum Positive B.M at center and negative B.M at fixed end";
                 fixedPlBeam("#fixed-pl-main-beam", "#fixed-beam-pl");
                 previousClickedBeam.push("beam3");
                 document.getElementById("beam3").style.display = "none";
@@ -169,8 +169,8 @@ function playSimulation() {
             if (value === "Point Load" && selectedDropdownval === "One Side Fixed One Side SS") {
                 previousClickedEle.push("set5");
                 document.getElementById("set5").style.display = "block";
-                document.getElementById("mes9").innerHTML = "text message of sf";
-                document.getElementById("mes10").innerHTML = "text message of bm";
+                document.getElementById("mes9").innerHTML = "Shear force varies linearly, maximum SF occurs at initial fixed ends";
+                document.getElementById("mes10").innerHTML = "Maximum B.M occurs at fixed end";
                 onessPlBeam("#oness-pl-main-beam", "#oness-beam-pl");
                 previousClickedBeam.push("beam5");
                 document.getElementById("beam5").style.display = "none";
@@ -195,8 +195,8 @@ function playSimulation() {
             if (value === "Point Load" && selectedDropdownval === "Two Side SS") {
                 previousClickedEle.push("set7");
                 document.getElementById("set7").style.display = "block";
-                document.getElementById("mes13").innerHTML = "text message of sf";
-                document.getElementById("mes14").innerHTML = "text message of bm";
+                document.getElementById("mes13").innerHTML = "Shear force varies linearly, maximum SF occurs at fixed ends";
+                document.getElementById("mes14").innerHTML = "Maximum Positive B.M at center and negative B.M at fixed end";
                 twossPlBeam("#twoss-pl-main-beam", "#twoss-beam-pl");
                 previousClickedBeam.push("beam7");
                 document.getElementById("beam7").style.display = "none";
