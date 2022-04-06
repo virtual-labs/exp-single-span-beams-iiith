@@ -30,12 +30,15 @@ function onSelection() {
 
     } else if (selectedDropdownval === "Fixed Beam") {
         console.log("testboya");
+        document.getElementById("main-beam1").style.display = "none";
         document.getElementById("procedure-message").innerHTML = "<li>Select the load type, check the input parameters and click on Start button</li>" + "<li>Observe the beam of Deflection and pay attention to the shear force and bending moment in the observation section </li>";
     } else if (selectedDropdownval === "One Side Fixed One Side SS") {
         console.log("testboya");
+        document.getElementById("main-beam1").style.display = "none";
         document.getElementById("procedure-message").innerHTML = "<li>Select the load type, check the input parameters and click on Start button</li>" + "<li>Observe the beam of Deflection and pay attention to the shear force and bending moment in the observation section </li>";
     } else if (selectedDropdownval === "Two Side SS") {
         console.log("testboya");
+        document.getElementById("main-beam1").style.display = "none";
         document.getElementById("procedure-message").innerHTML = "<li>Select the load type, check the input parameters and click on Start button</li>" + "<li>Observe the beam of Deflection and pay attention to the shear force and bending moment in the observation section </li>";
     }
 }
