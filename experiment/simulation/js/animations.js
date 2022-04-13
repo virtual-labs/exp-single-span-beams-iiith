@@ -1,13 +1,14 @@
 //arrow down animation
 function moveArrowDown(id, position) {
     var elem = document.getElementById(id);
+    console.log(elem);
     var pos = 0;
     clearInterval(id);
-    id = setInterval(frame, 10);
+   const moveArrow = setInterval(frame, 10);
 
     function frame() {
         if (pos == position) {
-            clearInterval(id);
+            clearInterval(moveArrow);
         } else {
             pos++;
             elem.style.top = pos + 'px';
