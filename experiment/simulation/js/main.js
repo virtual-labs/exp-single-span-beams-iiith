@@ -124,7 +124,7 @@ function playSimulation() {
                 document.getElementById("beam1").style.display = "none";
                 // console.log("beam1");
                 previousClickedMainBeam.push("main-beam1");
-                document.getElementById("main-beam1").style.display = "block";
+                document.getElementById("main-beam1").style.display = "none";
                 mainBeamDisplay.push("main-beam1");
                 document.getElementById("main-beam1").style.display = "block";
                 //showObservations('svg-sfd','svg-bmd');
@@ -138,7 +138,7 @@ function playSimulation() {
             }
             if (value === "UDL" && selectedDropdownval === "Cantilever") {
                 document.getElementById("arrow-udl").style.display = "block";
-                moveArrowDown("arrow-udl", 100);
+                moveArrowDown("arrow-udl", 80);
                 const myTimeout = setTimeout(function() {previousClickedEle.push("set2");
                 document.getElementById("set2").style.display = "block";
                 document.getElementById("mes3").innerHTML = "Maximum shear force occurs at the fixed end";
@@ -150,7 +150,7 @@ function playSimulation() {
                 previousClickedMainBeam.push("main-beam2");
                 document.getElementById("main-beam2").style.display = "block";
                 animateObserve('.canti-udl-sfd path', 'M 100 300 L 450 300 L 100 400 L 100 300 L 100 300');
-                animateObserve('.canti-udl-bmd path', 'M 100 300 Q 250 300 500 300 C 350 300 150 350 100 400 Q 100 400 100 300');}, 4000);
+                animateObserve('.canti-udl-bmd path', 'M 100 300 Q 250 300 500 300 C 350 300 150 350 100 400 Q 100 400 100 300');}, 100);
                
             }
             if (value === "Point Load" && selectedDropdownval === "Fixed Beam") {
@@ -166,9 +166,8 @@ function playSimulation() {
                 previousClickedMainBeam.push("main-beam3");
                 document.getElementById("main-beam3").style.display = "block";
                 animateObserve('.fix-pl-sfd path', 'M 150 150 L 450 150 L 450 200 L 300 200 L 300 100 L 150 100 L 150 150');
-                animateObserve('.fix-pl-bmd path', 'M 150 150 L 450 150 L 450 250 L 150 250 L 150 150 L 150 250 L 300 50 L 450 250');}, 100);
-       
-                
+                animateObserve('.fix-pl-bmd path', 'M 150 150 L 450 150 L 450 250 L 150 250 L 150 150 L 150 250 L 300 50 L 450 250');}, 100);      
+               
             }
             if (value === "UDL" && selectedDropdownval === "Fixed Beam") {
                 document.getElementById("arrow-udl").style.display = "block";
@@ -184,8 +183,6 @@ function playSimulation() {
                 document.getElementById("main-beam4").style.display = "block";
                 animateObserve('.fix-udl-sfd path', 'M 150 150 L 450 150 L 450 250 L 150 50 L 150 150');
                 animateObserve('.fix-udl-bmd path', 'M 150 200 L 450 200 L 450 250 L 150 250 L 150 200 L 150 250 Q 300 0 450 250');}, 100);
-
-
                
             }
             if (value === "Point Load" && selectedDropdownval === "One Side Fixed One Side SS") {
