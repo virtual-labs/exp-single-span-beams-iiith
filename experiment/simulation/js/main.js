@@ -130,11 +130,6 @@ function playSimulation() {
                 //showObservations('svg-sfd','svg-bmd');
                 animateObserve('.canti-pl-sfd path', 'M 100 300 L 350 300 L 350 350 L 100 350 L 100 300');
                 animateObserve('.canti-pl-bmd path', 'M 100 300 L 450 300 L 100 400 L 100 300 L 100 300');}, 2000);
-       
-               
-                
-                
-
             }
             if (value === "UDL" && selectedDropdownval === "Cantilever") {
                 document.getElementById("arrow-udl").style.display = "block";
