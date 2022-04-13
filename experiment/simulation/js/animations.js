@@ -22,7 +22,7 @@ function animateObserve(ele, val) {
 
     anime({
         targets: ele,
-        duration: 1000,
+        duration: 2000,
         strokeDashoffset: [anime.setDashoffset, 0],
         easing: "easeInOutSine",
         direction: "alternate",

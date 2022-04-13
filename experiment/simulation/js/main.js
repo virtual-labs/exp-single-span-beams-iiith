@@ -55,7 +55,7 @@ function showObservations(ele1, ele2) {
     // animateObserve(ele2, path2Val);
     console.log(path2Val);
 }
-
+var previousClickedarrow = [];
 var previousClickedEle = [];
 var previousClickedBeam = [];
 var previousClickedMainBeam = [];
@@ -83,6 +83,8 @@ function playSimulation() {
             console.log(lengthval);
             var depthval = document.getElementById("depth").value
             console.log(depthval);
+
+
             
             if (previousClickedEle.length > 0) {
                 for (var i = 0; i < previousClickedEle.length; i++) {
@@ -136,7 +138,7 @@ function playSimulation() {
             }
             if (value === "UDL" && selectedDropdownval === "Cantilever") {
                 document.getElementById("arrow-udl").style.display = "block";
-                moveArrowDown("arrow-udl", 150);
+                moveArrowDown("arrow-udl", 100);
                 const myTimeout = setTimeout(function() {previousClickedEle.push("set2");
                 document.getElementById("set2").style.display = "block";
                 document.getElementById("mes3").innerHTML = "Maximum shear force occurs at the fixed end";
@@ -153,7 +155,7 @@ function playSimulation() {
             }
             if (value === "Point Load" && selectedDropdownval === "Fixed Beam") {
                 document.getElementById("arrow").style.display = "block";
-                moveArrowDown("arrow-udl", 150);
+                moveArrowDown("arrow", 150);
                 const myTimeout = setTimeout(function() {previousClickedEle.push("set3");
                 document.getElementById("set3").style.display = "block";
                 document.getElementById("mes5").innerHTML = "Shear force is constant throughout the beam";
@@ -164,13 +166,13 @@ function playSimulation() {
                 previousClickedMainBeam.push("main-beam3");
                 document.getElementById("main-beam3").style.display = "block";
                 animateObserve('.fix-pl-sfd path', 'M 150 150 L 450 150 L 450 200 L 300 200 L 300 100 L 150 100 L 150 150');
-                animateObserve('.fix-pl-bmd path', 'M 150 150 L 450 150 L 450 250 L 150 250 L 150 150 L 150 250 L 300 50 L 450 250');}, 2000);
+                animateObserve('.fix-pl-bmd path', 'M 150 150 L 450 150 L 450 250 L 150 250 L 150 150 L 150 250 L 300 50 L 450 250');}, 100);
        
                 
             }
             if (value === "UDL" && selectedDropdownval === "Fixed Beam") {
                 document.getElementById("arrow-udl").style.display = "block";
-                moveArrowDown("arrow-udl", 150);
+                moveArrowDown("arrow-udl", 100);
                 const myTimeout = setTimeout(function() { previousClickedEle.push("set4");
                 document.getElementById("set4").style.display = "block";
                 document.getElementById("mes7").innerHTML = "text message of sf";
@@ -181,14 +183,14 @@ function playSimulation() {
                 previousClickedMainBeam.push("main-beam4");
                 document.getElementById("main-beam4").style.display = "block";
                 animateObserve('.fix-udl-sfd path', 'M 150 150 L 450 150 L 450 250 L 150 50 L 150 150');
-                animateObserve('.fix-udl-bmd path', 'M 150 200 L 450 200 L 450 250 L 150 250 L 150 200 L 150 250 Q 300 0 450 250');}, 2000);
+                animateObserve('.fix-udl-bmd path', 'M 150 200 L 450 200 L 450 250 L 150 250 L 150 200 L 150 250 Q 300 0 450 250');}, 100);
 
 
                
             }
             if (value === "Point Load" && selectedDropdownval === "One Side Fixed One Side SS") {
                 document.getElementById("arrow").style.display = "block";
-                moveArrowDown("arrow-pl", 150);
+                moveArrowDown("arrow", 150);
                 const myTimeout = setTimeout(function() {previousClickedEle.push("set5");
                 document.getElementById("set5").style.display = "block";
                 document.getElementById("mes9").innerHTML = "Shear force varies linearly, maximum SF occurs at initial fixed ends";
@@ -199,14 +201,14 @@ function playSimulation() {
                 previousClickedMainBeam.push("main-beam5");
                 document.getElementById("main-beam5").style.display = "block";
                 animateObserve('.oness-pl-sfd path', 'M 150 150 L 450 150 L 450 200 L 300 200 L 300 100 L 150 100 L 150 150');
-                animateObserve('.oness-pl-bmd path', 'M 100 200 L 100 200 L 400 200 L 400 250 L 300 150 L 100 200');}, 2000);
+                animateObserve('.oness-pl-bmd path', 'M 100 200 L 100 200 L 400 200 L 400 250 L 300 150 L 100 200');}, 70);
            
 
                 
             }
             if (value === "UDL" && selectedDropdownval === "One Side Fixed One Side SS") {
                 document.getElementById("arrow-udl").style.display = "block";
-                moveArrowDown("arrow-udl", 150);
+                moveArrowDown("arrow-udl", 100);
                 const myTimeout = setTimeout(function() {  previousClickedEle.push("set6");
                 document.getElementById("set6").style.display = "block";
                 document.getElementById("mes11").innerHTML = "text message of sf";
@@ -217,12 +219,12 @@ function playSimulation() {
                 previousClickedMainBeam.push("main-beam6");
                 document.getElementById("main-beam6").style.display = "block";
                 animateObserve('.oness-udl-sfd path', 'M 100 200 L 100 200 L 500 200 L 450 300 L 100 150 Q 100 200 100 200');
-                animateObserve('.oness-udl-bmd path', 'M 100 200 L 100 200 L 500 200 L 500 250 Q 250 50 100 200');}, 2000);
+                animateObserve('.oness-udl-bmd path', 'M 100 200 L 100 200 L 500 200 L 500 250 Q 250 50 100 200');}, 100);
               
             }
             if (value === "Point Load" && selectedDropdownval === "Two Side SS") {
                 document.getElementById("arrow").style.display = "block";
-                moveArrowDown("arrow-pl", 150);
+                moveArrowDown("arrow", 150);
                 const myTimeout = setTimeout(function() { previousClickedEle.push("set7");
                 document.getElementById("set7").style.display = "block";
                 document.getElementById("mes13").innerHTML = "Shear force varies linearly, maximum SF occurs at fixed ends";
@@ -233,12 +235,12 @@ function playSimulation() {
                 previousClickedMainBeam.push("main-beam7");
                 document.getElementById("main-beam7").style.display = "block";
                 animateObserve('.twoss-pl-sfd path', 'M 150 150 L 450 150 L 450 200 L 300 200 L 300 100 L 150 100 L 150 150');
-                animateObserve('.twoss-pl-bmd path', 'M 100 300 L 300 300 L 200 250 L 100 300');}, 2000);
+                animateObserve('.twoss-pl-bmd path', 'M 100 300 L 300 300 L 200 250 L 100 300');}, 100);
                
             }
             if (value === "UDL" && selectedDropdownval === "Two Side SS") {
                 document.getElementById("arrow-udl").style.display = "block";
-                moveArrowDown("arrow-udl", 150);
+                moveArrowDown("arrow-udl", 100);
                 const myTimeout = setTimeout(function() { previousClickedEle.push("set8");
                 document.getElementById("set8").style.display = "block";
                 document.getElementById("mes15").innerHTML = "text message of sf";
@@ -249,7 +251,7 @@ function playSimulation() {
                 previousClickedMainBeam.push("main-beam8");
                 document.getElementById("main-beam8").style.display = "block";
                 animateObserve('.twoss-udl-sfd path', 'M 150 150 L 450 150 L 450 250 L 150 50 L 150 150');
-                animateObserve('.twoss-udl-bmd path', 'M 100 300 L 400 300 Q 250 150 100 300');}, 2000);
+                animateObserve('.twoss-udl-bmd path', 'M 100 300 L 400 300 Q 250 150 100 300');}, 100);
                
             }
         }
