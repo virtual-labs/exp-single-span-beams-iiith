@@ -132,6 +132,7 @@ function playSimulation() {
                 animateObserve('.canti-pl-bmd path', 'M 100 300 L 450 300 L 100 400 L 100 300 L 100 300');}, 100);
             }
             if (value === "UDL" && selectedDropdownval === "Cantilever") {
+                document.getElementById("arrow").style.display = "none";
                 document.getElementById("arrow-udl").style.display = "block";
                 moveArrowDown("arrow-udl", 80);
                 const myTimeout = setTimeout(function() {previousClickedEle.push("set2");
@@ -165,6 +166,7 @@ function playSimulation() {
                
             }
             if (value === "UDL" && selectedDropdownval === "Fixed Beam") {
+                document.getElementById("arrow").style.display = "none";
                 document.getElementById("arrow-udl").style.display = "block";
                 moveArrowDown("arrow-udl", 100);
                 const myTimeout = setTimeout(function() { previousClickedEle.push("set4");
@@ -199,6 +201,7 @@ function playSimulation() {
                 
             }
             if (value === "UDL" && selectedDropdownval === "One Side Fixed One Side SS") {
+                document.getElementById("arrow").style.display = "none";
                 document.getElementById("arrow-udl").style.display = "block";
                 moveArrowDown("arrow-udl", 100);
                 const myTimeout = setTimeout(function() {  previousClickedEle.push("set6");
@@ -231,6 +234,7 @@ function playSimulation() {
                
             }
             if (value === "UDL" && selectedDropdownval === "Two Side SS") {
+                document.getElementById("arrow").style.display = "none";
                 document.getElementById("arrow-udl").style.display = "block";
                 moveArrowDown("arrow-udl", 100);
                 const myTimeout = setTimeout(function() { previousClickedEle.push("set8");
