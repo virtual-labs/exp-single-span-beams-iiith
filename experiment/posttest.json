@@ -5,4 +5,55 @@
 		"b": "False"
 	},
 	"correctAnswer": "b"
-}]
+},
+{
+	"question": "2. In Simple bending in beams the stress in the beams varies",
+	"answers": {
+		"a": "linerally",
+		"b": "parabolically",
+		"c": "hyperbolically",
+		"d": "elliptically"
+	},
+	"correctAnswer": "a"
+},
+{
+	"question": "3. The bending moment on a section is maximum where the shear force is ",
+	"answers": {
+		"a": "minimum",
+		"b": "maximum",
+		"c": "changesign",
+		"d": "zero"
+	},
+	"correctAnswer": "d"
+},
+{
+	"question": "4. In cantilever beam the bending moment at fixed end is",
+	"answers": {
+		"a": "zero",
+		"b": "minimum",
+		"c": "maximum",
+		"d": "all of the above"
+	},
+	"correctAnswer": "c"
+},
+{
+	"question": "5. When the simply supported beam is loaded at centre the bending moment diagram is",
+	"answers": {
+		"a": "a right-angled triangle",
+		"b": "an isosceles triangle",
+		"c": "an equilateral triangle",
+		"d": "a rectangle"
+	},
+	"correctAnswer": "b"
+},
+{
+	"question": "6. In a beam where the shear forces changes sign bending moment will be",
+	"answers": {
+		"a": "zero",
+		"b": "minimum",
+		"c": "maximum",
+		"d": "infinity"
+	},
+	"correctAnswer": "c"
+}
+]
