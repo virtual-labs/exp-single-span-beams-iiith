@@ -52,6 +52,10 @@ svg {
   position: relative;
   animation: mymove 10s forwards;
 } 
+.arrow-center{
+	position: relative;
+	padding-left: 40px;
+}
 
 g {
 	outline-color: solid 10px black;

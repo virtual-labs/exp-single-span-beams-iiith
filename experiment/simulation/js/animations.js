@@ -4,7 +4,7 @@ function moveArrowDown(id, position) {
     console.log(elem);
     var pos = 0;
     clearInterval(id);
-   const moveArrow = setInterval(frame, 10);
+   const moveArrow = setInterval(frame, 8);
 
     function frame() {
         if (pos == position) {
@@ -17,6 +17,8 @@ function moveArrowDown(id, position) {
     }
 
 }
+
+
 //arrow obervaitons
 function animateObserve(ele, val) {
 
