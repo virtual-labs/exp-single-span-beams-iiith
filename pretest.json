@@ -1,0 +1,50 @@
+[
+   {
+      "question":"1. Bending moment profile for a S.S. beam under U.D.L is parabolic.",
+      "answers":{
+         "a":"True",
+         "b":"False"
+      },
+      "correctAnswer":"b"
+   },
+   {
+      "question":"2. What is the bending moment at end supports of a simply supported beam?",
+      "answers":{
+         "a":"Maximum",
+         "b":"Minimum",
+         "c":"Zero",
+         "d":"Uniform"
+      },
+      "correctAnswer":"c"
+   },
+   {
+      "question":"3. What is the maximum shear force, when a cantilever beam is loaded with udl throughout?",
+      "answers":{
+         "a":"wxl",
+         "b":"w",
+         "c":"w/l",
+         "d":"w+1"
+      },
+      "correctAnswer":"a"
+   },
+   {
+      "question":"4. In a simply supported beam the bending stress at the neutral axis is ?",
+      "answers":{
+         "a":"0",
+         "b":"Maximum",
+         "c":"Minimum",
+         "d":"None of the above"
+      },
+      "correctAnswer":"a"
+   },
+   {
+      "question":"5. One of the following is the statically determinate beams",
+      "answers":{
+         "a":"cantiliver beams",
+         "b":"overhanging beams",
+         "c":"simply supported beams",
+         "d":"all of the above"
+      },
+      "correctAnswer":"b"
+   }
+]
